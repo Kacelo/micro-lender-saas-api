@@ -1,0 +1,29 @@
+{
+  "name": "micro-lender-saas-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "nodemon ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kacelo/micro-lender-saas-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kacelo/micro-lender-saas-api/issues"
+  },
+  "homepage": "https://github.com/Kacelo/micro-lender-saas-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
