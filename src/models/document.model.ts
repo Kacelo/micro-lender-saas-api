@@ -20,6 +20,6 @@ const loanDocument = new Schema<IDocument>({
   timeStamp: { type: Date, default: Date.now },
 });
 
-const Loan = model<IDocument>("Document", loanDocument);
+const Documents = model<IDocument>("Document", loanDocument);
 
-export default Loan;
+export default Documents;

@@ -1,8 +1,3 @@
-// Sender (reference to User)
-// Receiver (reference to User)
-// Content
-// Timestamp
-
 import mongoose, { Document, Schema, model } from "mongoose";
 
 interface IMessage extends Document {
