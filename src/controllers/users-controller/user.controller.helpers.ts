@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import User from "../../models/users.model";
-
-const registerUser = async (req: Request, res: Response) => {
+import asyncHandler from "express-async-handler";
+const registerUser = asyncHandler(async (req: Request, res: Response) => {
   const {
     firstName,
     lastName,
@@ -29,8 +29,8 @@ const registerUser = async (req: Request, res: Response) => {
     idNumber,
   });
 
-  res.json({ message: "Register User" });
-};
+  res.json({ message: "Register User,", user });
+});
 
 const loginUser = (req: Request, res: Response) => {
   res.json({ message: "Login User" });
